@@ -1,0 +1,55 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>lab4upr2</title>
+</head>
+
+<body>
+  <h2 class="header">Построение эллипса</h2>
+
+  <form class="form">
+    <input class="inputX" name="inputX">
+    <input class="inputY" name="inputY">
+    <button type="submit" class="submit" name="submit">Построить</button>
+
+  </form>
+  <div class="container">
+    <div class="firstMethod">
+      <div class="hLine"></div>
+      <div class="vSegment"></div>
+      <div class="val"></div>
+      <div class="hSegment"></div>
+      <div class="vLine"></div>
+    </div>
+
+    <svg class="svg" viewBox='-10 -10 300 300'>
+      <ellipse class="ellipse" cx="140" cy="140" fill="rgb(255, 202, 202)" stroke-width="3" stroke="black" />
+      <line class="line" x1="140" y1="-10" x2="140" y2="300" stroke-width="2" stroke="black" />
+      <line class="line" x1="140" y1="-10" x2="160" y2="15" stroke-width="2" stroke="black" />
+      <line class="line" x1="120" y1="15" x2="140" y2="-10" stroke-width="2" stroke="black" />
+      <line class="line" x1="270" y1="120" x2="290" y2="140" stroke-width="2" stroke="black" />
+      <line class="line" x1="270" y1="160" x2="290" y2="140" stroke-width="2" stroke="black" />
+      <line class="svgVsegment" x1="130" y1="140" x2="150" y2="140" stroke-width="2" stroke="black" />
+      <line class="svgHsegment" x1="140" y1="130" x2="140" y2="150" stroke-width="2" stroke="black" />
+      <line class="line" x1="-10" y1="140" x2="300" y2="140" stroke-width="2" stroke="black" />
+      <text class="val"></text>
+    </svg>
+    <div class="val"></div>
+
+
+    <canvas class="canvas" width="300px" height="300px">
+    </canvas>
+  </div>
+  <div class="titles">
+    <div class="h1">Мозаика</div>
+    <div class="h2">SVG</div>
+    <div class="h3">Canvas</div>
+
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    color: rgb(0, 51, 102);
+    text-align: justify;
+    margin: 0 10%;
+}
+@media screen and (max-width: 1900px) {
+    body{
+        font-family: Arial, sans-serif;
+    font-size: 14pt;
+    color: rgb(0, 51, 102);
+      
+    }
+}
+@media screen and (max-width: 1200px) {
+    body{
+        font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: rgb(0, 51, 102);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: rgb(0, 51, 102);
+    }
+}
+
+a:visited{
+    color:black;
+}
+a:link{
+    color:blue;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:white;
+    background: gray;
+}
+li{
+    font-size:90%;
+}
+table{
+    font-size: 90%;
+}
+td{
+     padding: 10px;
+ }
+th{
+    padding: 10px;
+}

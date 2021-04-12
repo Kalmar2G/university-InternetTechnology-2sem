@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Мебель</title>
+</head>
+
+<body>
+  <h1 class="header">Заказ мебели</h1>
+  <form name="form">
+    <select name="product" class="product">
+      <option selected value disabled>Изделие</option>
+      <option value="Шкаф">Шкаф</option>
+      <option value="Стол">Стол</option>
+      <option value="Сервант">Сервант</option>
+      <option value="Диван">Диван</option>
+      <option value="Кресло">Кресло</option>
+    </select>
+    <input name="inputPrice" class="inputPrice">
+    <input name="inputCount" class="inputCount">
+    <button type="submit" class="submit">Ввод</button>
+
+  </form>
+
+  <table>
+    <tr>
+      <td>Наименование товара</td>
+      <td>Цена за ед.</td>
+      <td>Колиечство</td>
+      <td>Стоимость</td>
+    </tr>
+    <tr>
+      <td>Шкаф</td>
+      <td>5000</td>
+      <td>15</td>
+      <td>75000</td>
+    </tr>
+    <tr>
+      <td>Стол</td>
+      <td>2000</td>
+      <td>4</td>
+      <td>8000</td>
+    </tr>
+    <tr>
+      <td>Сервант</td>
+      <td>3000</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Диван</td>
+      <td>7000</td>
+      <td>2</td>
+      <td>14000</td>
+    </tr>
+    <tr>
+      <td>Кресло</td>
+      <td>3000</td>
+      <td>1</td>
+      <td>3000</td>
+    </tr>
+    <tr>
+      <td colspan="3">итого:</td>
+      <td>100000</td>
+    </tr>
+  </table>
+
+
+</body>
+
+</html>

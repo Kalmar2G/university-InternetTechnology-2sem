@@ -1,0 +1,59 @@
+body{
+  font-family: cursive;
+  opacity: .8;
+  position: relative;
+  background-color: #ffdae1;
+  width: 100%;
+  height: 100vh;
+}
+
+.header{
+  text-align: center;
+  
+}
+
+.first{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.first-click{
+  font-size: 48px;
+  color: white;
+  background-color: #6272ff;
+}
+
+.color{
+  color: red;
+}
+
+.second{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  display: inline-block;
+  background-color: yellow;
+  font-size: 20px;
+}
+
+.second-click{
+  background-color: green;
+}
+
+.third{
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  display: inline-block;
+  background-color: rgb(160, 158, 247);
+  font-size: 20px;
+}
+
+.third-click{
+  background-color: rgb(219, 0, 0);
+}
+

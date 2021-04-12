@@ -1,0 +1,160 @@
+body{
+  font-family: cursive;
+  background: rgb(255, 202, 202);
+}
+
+.header{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 48px;
+}
+
+.header:after{
+  display: block;
+  content: "Значения от 0 до 145";
+  font-size: 25px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  margin:20px;
+  width: 10%;
+  height:30px;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 5px;
+  transition: border-color .1s;
+  border: 2px solid black;
+  text-align: center;
+  outline: none;
+} 
+
+.submit{
+  margin:20px;
+  background: #ff8800;
+  color: #484543;
+  border-radius: 3px;
+  width: 10%;
+  height:36px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;    
+  border: 2px solid black;
+}
+
+.container{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstMethod{
+  width: 300px;
+  position: relative;
+  border: 2px solid black;
+}
+
+
+
+
+.hLine{
+  position: absolute;
+  background: black;
+  width: 300px;
+  height: 2px;
+  margin-top: 150px;
+  z-index: 1;
+}
+
+.vSegment{
+  position: absolute;
+  background: black;
+  width: 20px;
+  height: 2px;
+  margin-top: 150px;
+  margin-left: 140px;
+  z-index: 1;
+}
+
+.val{
+  content: '30';
+  font-size: 8pt;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 165px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+
+}
+
+.hSegment{
+  position: absolute;
+  background: black;
+  width: 2px;
+  height: 20px;
+  margin-top: 140px;
+  margin-left: 150px;
+  z-index: 1;
+}
+
+
+.vLine{
+  position: absolute;
+  margin-left: 150px;
+  background: black;
+  width: 2px;
+  height:300px;
+  z-index: 1;
+}
+
+.pixel{
+  position: absolute;
+  background: black;
+  width: 2px;
+  height: 2px;
+  margin-top: -150px;
+  margin-left: 150px;
+  z-index: 0;
+}
+
+
+.svg{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid black;
+  
+}
+
+
+
+.line{
+  z-index: 2;
+}
+
+.ellipse{
+  z-index: 1;
+  border: 5px solid red;
+}
+
+.canvas{
+  display:block;
+  border: 2px solid black;
+}
+
+.titles{
+  font-size: 25px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.invalid{
+  border: 3px solid red;
+}
